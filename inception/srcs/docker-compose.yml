@@ -51,10 +51,10 @@ volumes:
   db-data:
     driver_opts:
       type: none
-      device: /home/mpezzull/data/db-data
+      device: /home/mde-rosa/data/db-data
       o: bind
   www-data:
     driver_opts:
       type: none
-      device: /home/mpezzull/data/www-data
+      device: /home/mde-rosa/data/www-data
       o: bind

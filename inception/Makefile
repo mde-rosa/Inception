@@ -1,4 +1,4 @@
-HOME=/home/mpezzull
+HOME=/home/mde-rosa
 
 # Colors variables
 RED = \033[1;31m
@@ -10,7 +10,7 @@ RESET = \033[0m
 all: hosts rvolumes volumes build up
 
 hosts:
-	@sudo sed -i "s/localhost/mpezzull.42.fr/g" /etc/hosts
+	@sudo sed -i "s/localhost/mde-rosa.42.fr/g" /etc/hosts
 
 ls:
 	@echo "$(GREEN)██████████████████████████ IMAGES ███████████████████████████$(RESET)"
